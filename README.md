@@ -86,7 +86,7 @@ The chartData object is created with the labels and datasets properties. The lab
 npm start
 ```
 
-### Some other necessary elements and components used
+## Some other components used
 
 * useState hook
 * axios library
