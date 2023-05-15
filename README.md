@@ -12,6 +12,8 @@ ReactJS is a JavaScript library used for building user interfaces for web applic
 
 React follows a component-based architecture, where the UI is broken down into small, self-contained components. Each component can have its own state, properties, and lifecycle methods. React uses a virtual DOM (Document Object Model) to efficiently update and render only the necessary parts of the user interface, resulting in better performance.
 
+## Components
+
 ```
 import React, { useState } from 'react';
 import axios from 'axios';
