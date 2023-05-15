@@ -86,6 +86,14 @@ The chartData object is created with the labels and datasets properties. The lab
 npm start
 ```
 
+### Some other necessary elements and components used
+
+* useState hook
+* axios library
+* react-chartjs-2 library
+* file-saver library
+* fetchData: An asynchronous function that fetches data from the URL 'https://www.terriblytinytales.com/test.txt' using Axios. It processes the received data to calculate the word count and generate chart data for a histogram.
+* handleExport: A function triggered when the export button is clicked. It converts the chart data to CSV format and initiates the file download using FileSaver.js's 'saveAs' function. 
 
 
 
