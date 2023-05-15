@@ -12,12 +12,14 @@ ReactJS is a JavaScript library used for building user interfaces for web applic
 
 React follows a component-based architecture, where the UI is broken down into small, self-contained components. Each component can have its own state, properties, and lifecycle methods. React uses a virtual DOM (Document Object Model) to efficiently update and render only the necessary parts of the user interface, resulting in better performance.
 
+```
 **import React, { useState } from 'react';**
 **import axios from 'axios';**
 **import { Bar } from 'react-chartjs-2';**
 **import { saveAs } from 'file-saver';**
 **import Chart from 'chart.js/auto';**
 **import Style from './style.css';**
+```
 
 This section imports the necessary dependencies for the code. It imports React, the useState hook for managing component state, axios for making HTTP requests, react-chartjs-2 for rendering the bar chart, file-saver for saving files, and the necessary styles.
 
